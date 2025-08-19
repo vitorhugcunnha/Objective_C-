@@ -11,10 +11,10 @@ int[] idades = new int[QTD];
 string[] nomes = new string[QTD];
 // Seçã de cadastro de alunos
 
-for (int i = 1; i <= QTD; i++)
+for (int i = 0; i < QTD; i++)
 {
     Console.Clear();
-    Console.WriteLine($"Cadastrando Registro {i} ");
+    Console.WriteLine($"Cadastrando Registro {i + 1} ");
     //Console WriteLine é um Printf
 
 
